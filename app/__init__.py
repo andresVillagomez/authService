@@ -7,4 +7,5 @@ blueprint = Blueprint('authService', __name__)
 
 api = Api(blueprint, title='Authentication Services', version='1.0', description='Servicios de autenticación')
 
+
 api.add_namespace(main_ns, path='/auth')
